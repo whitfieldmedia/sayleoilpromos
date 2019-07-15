@@ -4,7 +4,7 @@ import youtube from './assets/icons/youtube.svg';
 import linkedin from './assets/icons/linkedin-sign.svg';
 import copyright from './assets/icons/copyright.svg';
 import logo from './assets/icons/sayle-logo.png';
-import './assets/scss/footer.scss';
+import './assets/css/footer.css';
 
 class Footer extends React.Component {
     render() {

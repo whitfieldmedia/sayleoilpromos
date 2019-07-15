@@ -1,0 +1,76 @@
+.promo-image {
+  width: 90%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+form {
+  display: flex;
+  flex-flow: row wrap;
+  padding-bottom: 50px;
+}
+
+.input-holder {
+  width: 45%;
+  margin: auto;
+  display: flex;
+  flex-flow: column;
+  padding: 10px;
+}
+
+.form_label {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: #666666;
+  font-weight: 300;
+}
+
+.input {
+  width: 80%;
+  height: 30px;
+  color: #1a1a1c;
+}
+
+.button-holder {
+  width: 45%;
+  margin: auto;
+}
+
+#form-button {
+  padding: 6px 13px 7px 12px;
+  min-width: 43px;
+  width: auto;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  border: 1px solid #1a1a1a;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+  background-image: linear-gradient(to top, #4e4e4e, #343434);
+  background-image: -webkit-linear-gradient(to top, #4e4e4e, #343434);
+}
+
+#form-button:hover {
+  background: #4B4B4B;
+}
+
+@media only screen and (max-width: 600px) {
+  form {
+    flex-flow: column;
+  }
+
+  .input {
+    margin: 0 auto;
+  }
+
+  .input-holder {
+    width: 90%;
+  }
+
+  .button-holder {
+    width: 90%;
+  }
+}
+
+/*# sourceMappingURL=home.css.map */

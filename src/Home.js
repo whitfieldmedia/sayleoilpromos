@@ -15,7 +15,7 @@ class Home extends React.Component {
                             <input type="text" name="name" className="input" />
                         </div>
                         <div className="input-holder">
-                            <label htmlFor="_replyto" className="form_label"> Email* </label>
+                            <label htmlFor="email" className="form_label"> Email* </label>
                             <input type="email" name="email" className="input" />
                         </div>
                         <div className="input-holder">

@@ -1,12 +1,17 @@
 import React from 'react';
-import flowood from './assets/images/Flowood-Cust-Promo.jpg';
+import coupon from './assets/images/sayle_coupon.png';
 import './assets/css/home.css'
 
 class Home extends React.Component {
     render() {
         return (
             <div className="home-page">
-                <img className="promo-image" src={flowood} alt="Flowood Crust Promo"/>
+                <a href={coupon} download>
+                    <img className="promo-image" src={coupon} alt="Sayle Oil Dipstix Coupon - $10 off any synthetic oil change"/>
+                    <h2 className="promo-download">
+                        Click to Download Coupon
+                    </h2>
+                </a>
                 <div className="form-container">
                     <form action="https://formspree.io/mrich@sayleoil.com" method="POST">
                         <input type="hidden" name="_cc" value="charlie@cwhitfieldmedia.com" />

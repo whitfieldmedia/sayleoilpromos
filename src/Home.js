@@ -12,7 +12,7 @@ class Home extends React.Component {
                         Click to Download Coupon
                     </h2>
                 </a>
-                <div className="form-container">
+                {/* <div className="form-container">
                     <form action="https://formspree.io/mrich@sayleoil.com" method="POST">
                         <input type="hidden" name="_cc" value="charlie@cwhitfieldmedia.com" />
                         <div className="input-holder">
@@ -31,7 +31,7 @@ class Home extends React.Component {
                             <button id="form-button" type="submit"> Send to Sayle Oil </button>
                         </div>
                     </form>
-                </div>
+                </div> */}
             </div>
         )
     }

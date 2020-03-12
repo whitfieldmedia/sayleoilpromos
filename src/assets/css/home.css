@@ -10,7 +10,7 @@
   max-width: 500px;
   height: auto;
   display: block;
-  margin: 50px auto 0 auto;
+  margin: 100px auto 20px auto;
 }
 
 a {
@@ -19,7 +19,7 @@ a {
 
 .promo-download {
   text-align: center;
-  margin: 10px 0 50px 0;
+  margin: 10px 0 100px 0;
   color: #38A2CA;
   text-decoration: none;
   font-family: "Open Sans", sans-serif;

@@ -4,7 +4,7 @@ import Nav from './Nav';
 import Home from './Home';
 import './assets/css/styles.css';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <Nav />
@@ -13,5 +13,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
